@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .down{
+            position: static;
+            border: 1px solid black;
+        }
+
+        .vhalu{ 
+            position: absolute;
+            border: 1px solid black;
+            left: 50px;
+            top: 20px;
+
+        }
+        .lion{
+            position: relative;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h3>
+    my name is John Doe
+    </h3>
+    <ol>
+        <!-- flow related -->
+        <li>static</li>
+        <li>relative</li><!-- it does not left its orginal position bt moves around -->
+        <li>absolute</li><!-- it losses its position and movwes relivent to its parent or the root of the website-->
+        <!--scroll-->
+        <li>fixed</li>
+        <li>sticky</li>
+    </ol>
+
+    <div class="swim"> <!-- .box*3>img (shortcut for box div creation) -->
+        <div class="box down"><img src="asset/download.png" alt=""></div>
+        <div class="box vhalu"><img src="asset/vhLU.png" alt=""></div>
+        <div class="box lion"><img src="asset/lion.jpg" alt=""></div>
+    </div>
+</body>
+</html>
