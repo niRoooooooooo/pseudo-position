@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3::before{
+            content: "before - ";
+            color: red;
+        }
+
+        /* remember : means pesudo class and pesudo element(class says the position and element says the content   to be added before or after the element with the help of content property   and the content can be text or image or any other element) */
+        
+        h3::after{
+            content: " - after";
+            color: blue;
+        }
+
+        p::first-letter{
+            font-size: 2em;
+            color: green;
+        }
+
+         p::first-line{
+            font-weight: bold;
+            color: orange;
+        }
+
+        ::selection{
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h3>heading -1</h3>
+    <h3>heading -2</h3>
+    <h3>heading -3</h3>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatum cumque debitis sint, culpa tempore sed numquam veniam, quos impedit vitae, unde ipsum nobis libero ad natus! Saepe, dignissimos nemo.</p>
+    <p>Hic nihil, maiores molestias sit voluptatem qui ea, temporibus aliquid pariatur fuga maxime obcaecati laudantium, eum amet. Nam quo nostrum animi hic maxime? Harum recusandae soluta cupiditate, corporis quidem culpa!</p>
+    <p>Totam quo quae veritatis reprehenderit dolore neque nihil aperiam necessitatibus possimus? Recusandae quo rerum illum quos ullam, laudantium vel nam voluptatem distinctio? Aliquam magni aspernatur maiores eaque hic modi delectus!</p>
+    <p>Facere eligendi laudantium repellendus nihil ex assumenda odio quae amet sequi nemo corporis nisi hic maxime fuga officiis, dignissimos blanditiis porro. Repellat, velit. Error soluta laboriosam animi minus voluptatem iure?</p>
+</body>
+</html>
